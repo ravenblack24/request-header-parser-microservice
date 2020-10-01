@@ -9,7 +9,7 @@
 #### Example usage:
 * https://request-header-parser.ravenblack24.repl.co/
 
-Note: there may be a short delay while repl.it loads.  If nothing happens, wait a few seconds and try again.
+**Please note**: there may be a short delay while the repl.it app starts up.  If nothing happens or you get an error, wait a few seconds and try again.
 
 #### Example output:
 *  {"ipaddress":"159.20.14.100", "language":"en-US,en;q=0.5", "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}
