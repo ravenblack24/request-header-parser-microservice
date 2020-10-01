@@ -1,0 +1,15 @@
+{
+  "name": "header-parser-microservice",
+  "version": "1.0.0",
+  "description": "freeCodeCamp challenge solution",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kay Pea",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}

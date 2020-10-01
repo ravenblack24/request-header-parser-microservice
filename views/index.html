@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Header Parser microservice - express.js and node.js</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__container__title">API Project:<span class="header__container__title--strong">Request Header Parser Microservice</span></h1>
+        </div>
+    </header>
+    <section>
+        <div class="section__container">
+            <h2 class="section__container__title">User Story</h2>
+            <p class="section__container__content">I can get the IP address, preferred languages (from header Accept-Language)
+                and system infos (from header User-Agent) for my device.</p>
+            <h2 class="section__container__title">Example Usage</h2>
+            <p class="section__container__content"><a href="/api/whoami" title="try the api" class="section__container__content__link">[base_url]/api/whoami</a></p>
+            <h2 class="section__container__title section__container__precode">Example Output</h2>
+            <code class="section__container__code">
+                {"ipaddress":"159.20.14.100", "language":"en-US,en;q=0.5",     "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}
+            </code>
+        </div>
+    </section>
+</body>
+</html>
