@@ -2,12 +2,17 @@
 # API Project: Request Header Parser microservice
 
 ## Table of contents
+* [Status](#status)
 * [User stories](#user-stories)
 * [Example usage](#example-usage)
 * [Example output](#example-output)
 * [Technologies](#technologies)
-* [Status](#status)
 * [Contact](#contact)
+
+## Status
+Project is complete and an [interactive demo is available here](https://request-header-parser.ravenblack24.repl.co/).
+
+NOTE: repl.it projects quite often sleep, if the link doesn't work - download the code and run locally
 
 ### User stories:
 
@@ -24,9 +29,6 @@
 
 ## Technologies
 * express.js, node.js, html, css
-
-## Status
-Project is complete and an [interactive demo is available here](https://request-header-parser.ravenblack24.repl.co/).
 
 ## Contact
 Created by [Kay Pea](https://imkp.co.uk) - feel free to contact me!

@@ -1,4 +1,4 @@
-// init project
+// Init project
 const express = require('express');
 const app = express();
 const parseHeaders = require('./src/api/WhoAmI/index');
