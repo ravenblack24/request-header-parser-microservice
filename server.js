@@ -1,7 +1,7 @@
 // Init project
 const express = require('express');
 const app = express();
-const parseHeaders = require('./src/api/WhoAmI/index');
+const {parseHeaders} = require('./src/api/WhoAmI/index');
 const cors = require('cors');
 
 // Serve static resources from public dir
