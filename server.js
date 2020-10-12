@@ -2,9 +2,12 @@
 const express = require('express');
 const app = express();
 const parseHeaders = require('./src/api/WhoAmI/index');
+const cors = require('cors');
 
 // Serve static resources from public dir
 app.use(express.static(__dirname +"/public"));
+
+app.use(cors());
 
 // Route for index page
 app.get("/", (req, res) => {
